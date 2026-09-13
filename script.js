@@ -175,7 +175,7 @@
         const pinPopupClose = document.getElementById('pin-popup-close');
 
         // DEFAULT PIN: Silakan ubah angka ini jika ingin PIN lain
-        const SECRET_PIN = "2104";
+        const SECRET_PIN = "1709";
 
         let pinAttempt = 0;
         let popupTimeout = null;
@@ -415,7 +415,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // B. JIKA YANG DIKLIK ADALAH KARTU 3D BIASA (Bukan Lagu)
                 else if (this.classList.contains('planet-card')) {
                     modalImg.src = this.querySelector('img').src;
-                    modalImg.style.aspectRatio = "3 / 4";
+                    modalImg.style.aspectRatio = "9 / 16";
 
                     const customCaption = this.getAttribute('data-caption');
                     const teksCaption = customCaption ? customCaption : this.querySelector('.planet-caption').innerText;
